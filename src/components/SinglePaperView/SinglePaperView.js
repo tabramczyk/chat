@@ -3,6 +3,8 @@ import {withStyles} from '@material-ui/core/styles'
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
+import Logo from '../logo/Logo';
+
 
 const ContainerGrid = withStyles({
     root: {
@@ -36,6 +38,7 @@ class SinglePaperView extends React.Component {
             <ContainerGrid>
                 <Grid item xs={4}>
                     <StyledPaper>
+                        <Logo/>
                         {this.props.children}
                     </StyledPaper>
                 </Grid>

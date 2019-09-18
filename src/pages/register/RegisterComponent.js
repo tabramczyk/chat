@@ -1,6 +1,5 @@
 import React from 'react';
 import {withStyles} from '@material-ui/core/styles'
-import Typography from '@material-ui/core/Typography';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
@@ -37,17 +36,16 @@ class RegisterComponent extends React.Component {
     render() {
         return (
             <SinglePaperView>
-                <Typography align="center" variant="h1">LOGO</Typography>
                 <form>
                     <Grid container justify="center" alignItems="center">
                         <Grid xs={8}>
                             <CenteredTextField label="Login"/>
                         </Grid>
                         <Grid xs={8}>
-                            <CenteredTextField label="Password"/>
+                            <CenteredTextField type="password" label="Password"/>
                         </Grid>
                         <Grid xs={8}>
-                            <CenteredTextField label="Confirm password"/>
+                            <CenteredTextField type="password" label="Confirm password"/>
                         </Grid>
                         <Grid xs={8}>
                             <SignUpButton/>

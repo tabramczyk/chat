@@ -4,8 +4,8 @@ import {ThemeProvider} from '@material-ui/styles';
 import CssBaseline from "@material-ui/core/CssBaseline";
 
 import ROUTES from './assets/routes';
-import LoginComponent from './pages/login/LoginComponent'
-import RegisterComponent from './pages/register/RegisterComponent'
+import LoginComponent from './pages/login/LoginComponent';
+import RegisterComponent from './pages/register/RegisterComponent';
 import theme from './theme';
 
 function App() {

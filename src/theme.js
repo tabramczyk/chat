@@ -3,12 +3,12 @@ import {createMuiTheme} from '@material-ui/core/styles';
 const customTheme = {
     palette: {
         primary: {
-            main: '#AA0000',
-            dark: '#FFFFFFF',
+            main: '#FF0e00',
         },
         secondary: {
-          main: '#333333',
-            dark: '#111111'
+            light: '#555555',
+            main: '#333333',
+            dark: '#111111',
         },
         text: {
             primary: '#FFFFFF',
@@ -26,6 +26,9 @@ customTheme.overrides = {
         contained: {
             backgroundColor: customTheme.palette.secondary.dark,
             color: customTheme.palette.primary.main,
+            '&:hover': {
+                backgroundColor: customTheme.palette.secondary.light,
+            },
         },
     },
 };
