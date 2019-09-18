@@ -1,6 +1,6 @@
 {
   "name": "chat",
-  "homepage": "https://tabramczyk.github.io/chat",
+  "homepage": "https://tabramczyk.github.io/chat/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
