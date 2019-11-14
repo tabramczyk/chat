@@ -5,6 +5,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 
 import ROUTES from './assets/routes';
 import LoginComponent from './pages/login/LoginComponent';
+import ChatPage from './pages/chat/ChatPage';
 import RegisterComponent from './pages/register/RegisterComponent';
 import theme from './theme';
 
@@ -16,6 +17,7 @@ function App() {
                 <Route exact path={ROUTES.HOME_PAGE}/>
                 <Route path={ROUTES.LOGIN_PAGE} component={LoginComponent}/>
                 <Route path={ROUTES.REGISTER_PAGE} component={RegisterComponent}/>
+                <Route path={ROUTES.CHAT_PAGE} component={ChatPage}/>
             </Router>
         </ThemeProvider>
     );

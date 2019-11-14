@@ -6,9 +6,9 @@ const customTheme = {
             main: '#FF0e00',
         },
         secondary: {
-            light: '#555555',
+            light: '#444444',
             main: '#333333',
-            dark: '#111111',
+            dark: '#222222',
         },
         text: {
             primary: '#FFFFFF',
